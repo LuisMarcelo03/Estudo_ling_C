@@ -1,0 +1,15 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(){
+	
+	char a[20];
+	
+	printf("Digite seu nome: ");
+	scanf("%19[^\n]s", a);
+	fflush(stdin);
+	
+	printf("%s", a);
+	
+	return 0;
+}
