@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+int main(){
+	
+	float nota;
+	printf("digite sua nota:\n");
+	scanf("%f", &nota);
+	
+	if(nota >=  7.0){
+		printf("aprovado(a)!\n");
+	} else{
+		printf("reprovado(a)!\n");
+	}
+	
+}
