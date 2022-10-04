@@ -1,0 +1,14 @@
+#include <stdio.h>
+
+int main(){
+	
+	int a =0;
+	int b ;
+	
+	printf("digite um numero:");
+	scanf("%d", &b);
+	while(a <= b){
+		printf("%d ",b * a);
+		a++;
+	}
+}
