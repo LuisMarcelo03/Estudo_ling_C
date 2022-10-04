@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+int main(){
+	
+	int media[5] ={10, 20, 30, 40, 50};
+	int i;
+	float resultado = 0;
+	
+	for(i = 0; i <= 5; i++){
+		
+		resultado += media[i];
+	}
+	
+	printf("Sua media e:%.2f ", resultado/5);
+}
