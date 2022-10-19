@@ -1,0 +1,26 @@
+#include <stdio.h>
+#include <string.h>
+#include <locale.h>
+
+#define TAM 50
+
+struct tipo_pessoa{
+    int idade;
+    float peso;
+    char nome[TAM];
+};
+
+typedef struct tipo_pessoa tipo_pessoa;
+
+int main(){
+    setlocale(LC_ALL, "Portuguese");
+    
+    //criando e inicializando
+    
+    tipo_pessoa a = {0, 0.0, "Teste"};
+    
+    printf("Início: \n");
+    printf("idade: %d\n",a.idade);
+    printf("peso: %2.f\n",a.peso);
+    printf("nome: %s\n",a.nome);
+}
